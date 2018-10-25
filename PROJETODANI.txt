@@ -1,0 +1,15 @@
+(NOME DO BANCO: Dani ; SENHA: 2104)
+
+BAIXAR O DRIVE JDBC 
+
+CREATE TABLE Usuario(login varchar(20) PRIMARY KEY, nome VARCHAR(20), senha VARCHAR(20));
+
+CREATE TABLE professor(matricula varchar(20) PRIMARY KEY, nome VARCHAR(20));
+
+CREATE TABLE UserProfessor(loginUser varchar(20),matriculaProfessor varchar(20),
+FOREIGN KEY ( loginUser )
+REFERENCES Usuario(login)
+ON UPDATE NO ACTION ON DELETE RESTRICT,								   
+FOREIGN KEY ( matriculaProfessor )
+REFERENCES Professor(matricula)
+ON UPDATE NO ACTION ON DELETE RESTRICT, PRIMARY KEY(loginUser, matriculaProfessor));
