@@ -13,7 +13,7 @@ import java.util.List;
  * @author Dani
  */
 public class Atividade {
-    private int cod_Atividade; 
+    private int cod_Atividade;  
     private List<Tag> tag;
     private String deadline;
     private Disciplina disciplina;
