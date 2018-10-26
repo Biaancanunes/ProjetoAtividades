@@ -29,7 +29,7 @@ public class EditarUser extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        usuario1 = new dani.Usuario();
+        usuario1 = new Classes.Usuario();
         edsenha = new javax.swing.JButton();
         ednome = new javax.swing.JButton();
         senha = new javax.swing.JTextField();
@@ -178,6 +178,6 @@ public class EditarUser extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JTextField nome;
     private javax.swing.JTextField senha;
-    public dani.Usuario usuario1;
+    public Classes.Usuario usuario1;
     // End of variables declaration//GEN-END:variables
 }

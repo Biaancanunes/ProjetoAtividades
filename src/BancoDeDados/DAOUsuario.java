@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package BancoDeDados;
-import dani.Usuario;
+import Classes.Usuario;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;

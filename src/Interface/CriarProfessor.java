@@ -7,7 +7,7 @@ package Interface;
 
 import BancoDeDados.DAOProfessor;
 import BancoDeDados.DAOUserProfessor;
-import dani.Professor;
+import Classes.Professor;
 
 /**
  *
@@ -31,7 +31,7 @@ public class CriarProfessor extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        usuario1 = new dani.Usuario();
+        usuario1 = new Classes.Usuario();
         nome = new javax.swing.JTextField();
         matricula = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
@@ -171,6 +171,6 @@ public class CriarProfessor extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JTextField matricula;
     private javax.swing.JTextField nome;
-    public dani.Usuario usuario1;
+    public Classes.Usuario usuario1;
     // End of variables declaration//GEN-END:variables
 }

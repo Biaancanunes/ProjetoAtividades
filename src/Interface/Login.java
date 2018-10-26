@@ -6,7 +6,7 @@
 package Interface;
 
 import BancoDeDados.DAOUsuario;
-import dani.Usuario;
+import Classes.Usuario;
 import java.util.ArrayList;
 
 /**

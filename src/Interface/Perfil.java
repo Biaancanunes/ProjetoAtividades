@@ -27,7 +27,7 @@ public class Perfil extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        usuario1 = new dani.Usuario();
+        usuario1 = new Classes.Usuario();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
@@ -179,6 +179,6 @@ public class Perfil extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     public javax.swing.JLabel loginj;
     public javax.swing.JLabel nomej;
-    public dani.Usuario usuario1;
+    public Classes.Usuario usuario1;
     // End of variables declaration//GEN-END:variables
 }
